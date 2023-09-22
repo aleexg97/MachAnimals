@@ -1,0 +1,176 @@
+.article-twiiter{
+    background-color: white;
+    width: 80%;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    background-color: "";
+    border-radius: 300px;
+    padding: 5px;
+    background-color: white;
+    margin: 2px;
+    height: 70px;
+}
+    header{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        color: black;
+        background-color: "";
+        width: 450px;
+    }
+        .img-twitter{
+            border-radius: 100%;
+            margin-right: 15px;
+            height: 70px;
+            width: 100px;
+        }
+        
+
+    aside{
+        display: flex;
+        width: 200px;
+        background-color: "";
+    }
+        button{
+            background-color: white;
+            font-weight:600;
+            color: blue;
+            border :solid 2px blue;
+            border-radius: 20px;
+            width: 150px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+
+.btn-siguiendo{
+    background-color: green;
+    color:white;
+}
+    .btn-siguiendo:hover{
+        background-color: red;
+        color:white;
+    }
+    .btn-dejar-seguir{
+        background-color: red;
+        color:white; 
+    }
+.btn-seguir{
+    background-color: white;
+    color:black;
+}
+    .btn-seguir:hover{
+        background-color: green;
+        color:white;
+    }  
+    .btn-añadir-seguir{
+        background-color: yellow;
+        color:white;
+    }
+
+/* Header.jsx */
+
+.header-banner{
+    background-color: red;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+}
+    header div{
+        background-color: black;
+        padding-left: 20px;
+    }
+    header ul{
+        background-color: green;
+        width: 100%;
+        display: flex;
+    }
+        header ul li{
+            background-color: black;
+            width: 100%;
+            color: white;
+            list-style-type:none;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 5px;
+        }
+        .logo{
+            width: 100px;
+        }
+
+/*Inicio.jsx*/
+.section-inicio{
+    background-color: white;
+    margin-top: 20px;
+}
+    .article-1{
+        background-color: grey;
+        display: flex;
+    }
+        .texto{
+            background-color: "";
+            display: flex;
+            width: 50%;
+            display: block;
+            padding-left: 80px;
+            margin-right: 50px;
+            margin-top: 30px;           
+        }
+            .texto h1{
+                margin: 0px;
+            }
+            .texto h2{
+                background-color: "";
+                margin: 0px;
+                margin-bottom: 10px;
+            }
+            .texto span{
+                background-color:"";
+            }
+        .imagenes{
+            background-color: "";
+            width: 50%;
+            text-align: right;
+            display: flex;
+        }
+            .imagenes img{
+                width: 650px;
+            }
+    .linia{
+        display: flex;
+        justify-content: right ;
+    }
+        .linia span{
+            display: block;
+            background-color: black;
+            height: 1px;
+            width: 60%;
+        }
+
+    .article-2{
+        background-color: grey;
+        display: flex;
+    }
+        .texto2{
+            background-color: "";
+            display: flex;
+            width: 100%;
+            display: block;
+            
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+            .texto2 h2{
+                background-color: "";
+                margin: 0px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            .texto2 span{
+                padding-left: 80px;
+            }
+
+
+

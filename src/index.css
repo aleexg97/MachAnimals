@@ -1,0 +1,15 @@
+body {
+    margin:0px;
+    background-color: grey;
+    font-family: system-ui;
+}
+    h1{
+        font-size: 70px;
+        font-family: system-ui;
+    }
+    h2{
+        font-size: 50px;
+    }
+    span{
+        font-size: 20px;
+    }
